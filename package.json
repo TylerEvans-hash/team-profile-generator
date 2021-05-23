@@ -1,0 +1,25 @@
+{
+  "name": "team-profile-generator",
+  "version": "1.0.0",
+  "description": "## Description: This is a Node.js command-line application that was developed using the TDD (Test Driven Development) methodology. It uses Inquirer to take user inputed information about employees on a software team and generates an HTML webpage. This HTML webpage displays summaries for each person. The summaries of each employee can include: name, position, id, email, GitHub repo, school, and/or office number depending on position.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TylerEvans-hash/team-profile-generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TylerEvans-hash/team-profile-generator/issues"
+  },
+  "homepage": "https://github.com/TylerEvans-hash/team-profile-generator#readme",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  },
+  "dependencies": {
+    "inquirer": "^8.1.0"
+  }
+}
